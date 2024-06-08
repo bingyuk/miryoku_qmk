@@ -1,0 +1,8 @@
+name: 'Build Charybdis 3x5'
+on:
+  - workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    with:
+      keyboard: '["bastardkb/charybdis/3x5/v2/splinky_3"]'
